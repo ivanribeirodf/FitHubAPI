@@ -1,0 +1,23 @@
+meta {
+  name: UpdateUser
+  type: http
+  seq: 5
+}
+
+put {
+  url: http://localhost:8080/users/9783e517-5f44-4c1d-afbd-94402563f3c7
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "user_name":"Ivan Ribeiro",
+    "user_dtnasc":"1975-09-23",
+    "user_address":"Rua dos anzois",
+    "user_email":"ivandf@gmail.com",
+    "user_role":"ADMIN",
+    "user_password":"123123123",
+    "user_phone":"61999018787"
+  }
+}

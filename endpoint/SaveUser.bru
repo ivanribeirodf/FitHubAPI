@@ -1,0 +1,23 @@
+meta {
+  name: SaveUser
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8080/users
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "user_name":"Ivan Ribeiro",
+    "user_dtnasc":"1975-09-23",
+    "user_address":"Rua das Árvores Azuis",
+    "user_email":"ivandf@gmail.com",
+    "user_role":"ADMIN",
+    "user_password":"123123123",
+    "user_phone":"61999018787"
+  }
+}
