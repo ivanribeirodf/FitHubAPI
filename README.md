@@ -5,8 +5,6 @@
 
 ### Tabelas serão criadas ao executar o projeto
 - A criação será conforme as classes Model...
-  ![image](https://github.com/user-attachments/assets/c7c88103-38f1-4985-9b2d-216c3be6bfbf)
-
 
 |Acessando o Swagger|
 |---|
